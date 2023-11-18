@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 09:29:05 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswOToxOTo0MCDDllM7Mjg0NA=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswOToyOTowNSDDllM7MzsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="multiplication" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="1"/>
+            <assign variable="multiplication" expression="0"/>
+            <output expression="&quot;Enter number&quot;" newline="True"/>
+            <input variable="number"/>
+            <while expression="counter&lt;=10">
+                <assign variable="multiplication" expression="counter*number"/>
+                <assign variable="counter" expression="counter+1"/>
+                <output expression="&quot;multiplication table number&quot;" newline="True"/>
+                <output expression="multiplication" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

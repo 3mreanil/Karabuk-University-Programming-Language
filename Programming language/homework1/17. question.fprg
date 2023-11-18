@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 09:19:07 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswOTowMjozMCDDllM7MjgzNQ=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswOToxOTowNyDDllM7MjsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="Result" type="Real" array="False" size=""/>
+            <assign variable="result" expression="0"/>
+            <assign variable="counter" expression="1"/>
+            <output expression="&quot;Enter number&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="counter&lt;n">
+                <assign variable="result" expression="result+(1/counter)"/>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+            <output expression="Result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

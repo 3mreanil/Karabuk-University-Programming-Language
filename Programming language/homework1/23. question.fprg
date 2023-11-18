@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 11:20:49 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTsxMDozNTozOSDDllM7Mjg0Mg=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTsxMDozNTo0MyDDllM7MTtlbXJlO0xBUFRPUC04RzYxNkU0VDsyMDIzLTExLTA1OzEwOjE1OjE2IMOWUzsyMC4gcXVlc3Rpb24uZnByZzs3NDM5"/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTsxMToyMDo0OSDDllM7MTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="temprorary" type="Integer" array="False" size=""/>
+            <declare name="remainder" type="Integer" array="False" size=""/>
+            <declare name="opposite" type="Integer" array="False" size=""/>
+            <assign variable="opposite" expression="0"/>
+            <output expression="&quot;Enter number&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="temprorary" expression="number"/>
+            <while expression="temprorary&gt;0">
+                <assign variable="remainder" expression="temprorary%10"/>
+                <assign variable="opposite" expression="(opposite*10)+remainder"/>
+                <assign variable="temprorary" expression="temprorary/10"/>
+            </while>
+            <if expression="number == opposite">
+                <then>
+                    <output expression="&quot;Number is polindrom&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Number isn't polindrom&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

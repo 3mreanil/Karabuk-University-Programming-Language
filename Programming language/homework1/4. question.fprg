@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 04:32:01 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswNDoyNjoyOCDDllM7Mjg0Mw=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswNDozMjowMSDDllM7MTsyOTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temperature" type="Real" array="False" size=""/>
+            <output expression="&quot;enter temperature&quot;" newline="True"/>
+            <input variable="temperature"/>
+            <if expression="temperature&lt;0">
+                <then>
+                    <output expression="&quot;Below the freezing point&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Above the freezing point&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

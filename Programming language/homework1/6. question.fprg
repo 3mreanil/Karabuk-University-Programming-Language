@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 04:58:12 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswNDo1NTozOSDDllM7Mjg0Nw=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswNDo1ODoxMiDDllM7MTsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="feet" type="Real" array="False" size=""/>
+            <declare name="cm" type="Real" array="False" size=""/>
+            <output expression="&quot;enter the feet&quot;" newline="True"/>
+            <input variable="feet"/>
+            <assign variable="cm" expression="feet*30.48"/>
+            <output expression="cm" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

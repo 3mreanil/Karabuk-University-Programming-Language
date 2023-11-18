@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 04:26:22 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswMzoxNDowOSDDllM7MjgzOA=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswNDoyNjoyMiDDllM7MTsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter a N number&quot;" newline="True"/>
+            <input variable="N"/>
+            <if expression="N%2==0">
+                <then>
+                    <output expression="&quot;even number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;odd number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

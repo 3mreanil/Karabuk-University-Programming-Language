@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 08:23:02 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswODoxODo0OCDDllM7Mjg1MA=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswODoyMzowMiDDllM7MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="Multiplication" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="1"/>
+            <assign variable="multiplication" expression="0"/>
+            <while expression="counter&lt;=10">
+                <assign variable="multiplication" expression="counter*6"/>
+                <output expression="multiplication" newline="True"/>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

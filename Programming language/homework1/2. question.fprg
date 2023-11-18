@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 03:12:17 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswMjo1NzoxMyDDllM7MjgzOQ=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswMzoxMjoxNyDDllM7NDsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;enter radius&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="&#960;*radius*radius"/>
+            <output expression="&quot;area of circle&quot;" newline="True"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

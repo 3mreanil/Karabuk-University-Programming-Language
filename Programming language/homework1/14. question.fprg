@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 08:28:23 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswODoyMzowNCDDllM7MjgzOA=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswODoyODoyMyDDllM7MTsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="factorial" type="Integer" array="False" size=""/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <assign variable="counter" expression="1"/>
+            <assign variable="factorial" expression="1"/>
+            <output expression="&quot;Enter number&quot;" newline="True"/>
+            <input variable="Number"/>
+            <while expression="counter&lt;=number">
+                <assign variable="factorial" expression="factorial*counter"/>
+                <assign variable="counter" expression="counter+1"/>
+            </while>
+            <output expression="factorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

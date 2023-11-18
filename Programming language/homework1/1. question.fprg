@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 02:56:33 &#214;S"/>
+        <attribute name="created" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswMTo1ODozNSDDllM7Mjg0Mw=="/>
+        <attribute name="edited" value="ZW1yZTtMQVBUT1AtOEc2MTZFNFQ7MjAyMy0xMS0wNTswMjo1NjozMyDDllM7MTsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter b&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="total" expression="a+b"/>
+            <output expression="&quot;total of numbers:&quot;" newline="True"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+    <function name="start" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <output expression="a" newline="True"/>
+            <input variable="a"/>
+            <output expression="b" newline="True"/>
+            <input variable="b"/>
+            <assign variable="total" expression="a+b"/>
+        </body>
+    </function>
+</flowgorithm>
